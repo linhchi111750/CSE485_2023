@@ -1,0 +1,9 @@
+@import url(../bootstrap/css/bootstrap.min.css);
+
+.testing {
+  color : chocolate;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+}
