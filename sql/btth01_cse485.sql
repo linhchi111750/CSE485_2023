@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 24, 2023 at 08:25 PM
+-- Generation Time: Feb 25, 2023 at 01:08 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -107,6 +107,33 @@ INSERT INTO `theloai` (`ma_tloai`, `ten_tloai`) VALUES
 (7, 'Rock'),
 (8, 'R&B');
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user`
+--
+
+CREATE TABLE `user` (
+  `ma_user` int(10) UNSIGNED NOT NULL,
+  `ten_user` varchar(200) NOT NULL,
+  `password_user` varchar(200) NOT NULL,
+  `mail_user` varchar(200) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`ma_user`, `ten_user`, `password_user`, `mail_user`) VALUES
+(1, 'Nguyễn Văn Hiếu', 'daihocthuyloi123', 'vanhieu3012@gmail.com'),
+(2, 'Bùi Thị Linh Chi', 'linhchi1709', 'linhchi1750@gmail.com'),
+(3, 'Vũ Nhật Minh', '984637trh', 'minhvu69696969@gmail.com'),
+(4, 'Vũ Chí Công', 'hanoi56789', 'vuchicong678@gmail.com'),
+(5, 'Lương Anh Tuấn', 'luonganhtuandaihoctlu', 'luonganhtuandaihoctlu@gmail.com'),
+(6, 'Hoàng Hải Đăng', 'haidang7483', 'haodangthwj@gmail.com'),
+(7, 'Vũ Trường Anh', 'motngaydeptroi9090', 'truonganhchamhoc@gmail.com'),
+(8, 'Nguyễn Ngọc Tuyến', '987654wq234', 'tueynngocjnguyen23@gmail.com');
+
 --
 -- Indexes for dumped tables
 --
@@ -130,6 +157,12 @@ ALTER TABLE `tacgia`
 --
 ALTER TABLE `theloai`
   ADD PRIMARY KEY (`ma_tloai`);
+
+--
+-- Indexes for table `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`ma_user`);
 
 --
 -- Constraints for dumped tables
