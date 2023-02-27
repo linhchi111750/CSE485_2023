@@ -7,3 +7,16 @@
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 700;
 }
+
+.footer{
+  position: fixed;
+  height: 10vh;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border-top: solid 3px black;
+  text-transform: capitalize;
+}
