@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,9 @@
   <script src=boostrap\js\boostrap.min.js"></script>
   <title>Document</title>
 </head>
+
 <body>
-  <?php include_once ("views\client\index.view.php"); ?>
+  <?php include_once("views\client\index.view.php"); ?>
 </body>
+
 </html>

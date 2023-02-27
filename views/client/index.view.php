@@ -1,5 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <link rel="stylesheet" href="..\style.css" >
-  <script href="..\..\bootstrap\js\bootstrap.min.js" ></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="..\style.css">
+  <script src="..\..\bootstrap\js\bootstrap.min.js"></script>
+  <title>Home</title>
 </head>
- <h1 class="testing">Client page</h1>
+
+<body>
+  <?php include_once("./layouts/navbar.view.php"); ?>
+</body>
+
+</html>

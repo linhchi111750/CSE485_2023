@@ -17,7 +17,7 @@ $isHome = ($file == "/cse485_2023/views/admin/index.view.php")
 <nav class="navbar navbar-expand-lg bg-body-tertiary shadow p-3 bg-white rounded">
   <div class="container-fluid">
     <div class="h3">
-      <a class="navbar-brand" href="#">Administration</a>
+      <a class="navbar-brand text-primary text-uppercase" href="#">Administration</a>
     </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
