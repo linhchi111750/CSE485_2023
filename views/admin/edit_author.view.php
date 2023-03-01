@@ -1,6 +1,6 @@
 <?php
 $id = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
-$author = ["ten_tgia" => "mozart", "hinh_tgia"];
+$author = ["ten_tgia" => "mozart", "hinh_tgia" => 'abc.png'];
 ?>
 
 <head>
